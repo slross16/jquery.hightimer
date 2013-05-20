@@ -1,4 +1,4 @@
 jquery.hightimer
 ================
 
-jQuery timer plugin heavily based on jQuery.pietimer but re-purposed and enhanced
+jQuery timer plugin based on jQuery.pietimer but re-purposed and enhanced to meet a specific applications requirements.
