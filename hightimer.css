@@ -1,0 +1,55 @@
+/***********   timerS    **********/
+.timer-container {
+	position:absolute;
+	width:105px;
+	top:-175px;
+	height:135px;
+	z-index:4;
+	background-color:transparent !important;
+}
+
+.timer {
+	position:absolute;
+	top:6px;
+	left:1px;
+	z-index:10;
+	background-color:transparent !important;	
+}
+
+div.hightimer-back {
+	position:absolute;
+	top:19px;
+	width:105px;
+	height:85px;
+	background: transparent url(/images/stopwatch-atlas.png) 0 -200px no-repeat;
+    zoom: 1;	
+	z-index:5;		
+}
+
+
+
+.hightimer-frame {
+	position:absolute;
+	width:105px;
+	height:115px;
+	left:0;
+	top:0;
+	background: url(/images/stopwatch-atlas.png) 0 0 no-repeat;
+	background-color:transparent !important;
+    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#00FFFFFF,endColorstr=#00FFFFFF)"; /* IE8 */   
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#00FFFFFF,endColorstr=#00FFFFFF);   /* IE6 & 7 */      
+    zoom: 1;	
+	z-index:15;		
+	pointer-events:none;
+}
+
+div.hightimer-title {
+	position:absolute;
+	width:100%;
+	padding-left:5px;
+	left:0;
+	top:110px;
+	z-index:100;
+	text-align:center;
+	zoom:1;
+}
